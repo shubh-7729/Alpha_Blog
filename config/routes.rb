@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  route 'pages#home'
-  get 'home2' , to: 'pageshome2'
+  root 'pages#home'
+  get 'home2' , to: 'pages#home2'
 end
